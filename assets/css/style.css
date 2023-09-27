@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+main, footer {
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recipe, footer {
+  text-align: start;
+}
+.sft {
+  background-color: #fdfbf1;
+}
+.up {
+  text-transform: uppercase;
+  color: #107777;
+}
+.orange {
+  border-color: orange;
+}
+.lightblue {
+  border-color: blue;
+}
