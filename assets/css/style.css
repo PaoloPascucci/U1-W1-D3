@@ -12,7 +12,9 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
-
+footer{ 
+  padding: 0.5rem;
+}
 .recipe,
 footer {
   text-align: start;
