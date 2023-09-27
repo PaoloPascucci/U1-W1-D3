@@ -3,33 +3,48 @@ body {
   padding: 0;
   box-sizing: border-box;
   text-align: center;
+  font-family: serif;
 }
+
 main,
 footer {
   width: 720px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .recipe,
 footer {
   text-align: start;
 }
 
-.card-img{
-  border-radius: 0.5rem;
-  box-shadow: 6px 8px 6px lightgray;
+h2 {
+  font-weight: 300;
 }
 
 hr {
   margin: 0;
 }
-ul{
+
+ul {
   padding: 0;
 }
-li{
+
+li {
   margin-left: 3rem;
-  padding:0.3rem 0;
+  padding: 0.3rem 0;
 }
+
+.card-desc {
+  text-align: left;
+  font-size: large;
+}
+
+.card-img {
+  border-radius: 0.5rem;
+  box-shadow: 6px 8px 6px lightgray;
+}
+
 .sft {
   padding: 1rem;
   background-color: #fdfbf1;
@@ -37,31 +52,47 @@ li{
 }
 
 .quote {
-  border-left: 1px solid #ffebbb;
+  border-left: 3px solid #ffebbb;
   padding-left: 1rem;
   text-align: left;
-  margin-bottom: 3rem;
+  margin: 3rem 0;
 }
+
 .quote p {
   color: #b5460f;
   text-transform: uppercase;
+  font-weight: bold;
 }
+
 .quote p a {
   text-transform: capitalize;
 }
+
 a {
   color: #107777;
 }
+
 .up {
   text-transform: uppercase;
   color: #107777;
 }
+
 .orange {
   border-color: orange;
 }
+
 .lightblue {
   border-color: #c4f3f2;
 }
-.author{
-  color:#999999;
+
+.author {
+  color: #999999;
+  margin-top: 25px;
+}
+
+ol li span {
+  font-weight: bold;
+}
+ol li p {
+  margin: 0;
 }
